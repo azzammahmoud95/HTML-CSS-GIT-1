@@ -7,6 +7,6 @@ In this exercise, you will modify the "box model" with the CSS properties `width
 
 When you have finished, the countries should look like the image below.
 
-![Screenshot of expected spacing of the countries](/images/7/countries.png).
+![Screenshot of enpxpected spacing of the countries](/images/7/countries.png).
 
 _Try this: Add `* { border: 1px solid red; }` to your CSS code. It will show you the box model of every element._

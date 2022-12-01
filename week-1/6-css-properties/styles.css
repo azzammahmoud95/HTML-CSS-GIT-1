@@ -8,15 +8,12 @@ a {
 
 .message {
   font-size: 0.9rem;
+  line-height: 50px;
 }
 
 .message--unread {
   border-left: 2px solid blue;
 }
-.message__time--old {
+.message:has(.message__time--old) {
   opacity: 0.5;
-}
-
-.message {
-  line-height: 50px;
 }
