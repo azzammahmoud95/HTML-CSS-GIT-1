@@ -14,6 +14,6 @@ a {
 .message--unread {
   border-left: 2px solid blue;
 }
-.message:has(.message__time--old) {
+.messages > .message:first-child {
   opacity: 0.5;
 }
