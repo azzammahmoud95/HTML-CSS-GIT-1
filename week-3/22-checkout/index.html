@@ -12,8 +12,8 @@
     <div class="site-wrapper">
       <main>
         <div class="shopping-basket">
-          <h1 class="shopping-basket__title">Your Shopping Basket</h1>
-          <table class="shopping-basket__items">
+          <h1 class="shopping-baskettitle">Your Shopping Basket</h1>
+          <table class="shopping-basketitems">
             <tr>
               <th>Product</th>
               <th>Size</th>
@@ -22,7 +22,7 @@
             </tr>
             <tr>
               <td>
-                <div class="shopping-basket__product">
+                <div class="shopping-basketproduct">
                   <img src="/images/22/shirts.jpg" alt="Codi t-shirts in black" />
                   <p>Codi t-shirt, black</p>
                 </div>
@@ -35,10 +35,19 @@
         </div>
 
         <div class="checkout">
-          <h2 class="checkout__title">Checkout</h2>
+          <h2 class="checkouttitle">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
-
+            <p></p>
+            <label for="text" id="customer-name">Name</label>
+            <input type="text" name="customer-name" />
+            <p></p>
+            <label for="email" id="customer-email">Email</label>
+            <input type="email" name="customer-email" />
+            <label for="tel" id="customer-phone">Phone</label>
+            <p></p>
+            <input type="tel" name="customer-phone" />
+            <p></p>
             <button type="submit">Complete Purchase</button>
           </form>
         </div>
